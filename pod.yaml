@@ -13,3 +13,5 @@ spec:
     env:
       - name: TEST_SECRET
         value: <test_val>
+      - name: ANOTHER_SECRET
+        value: <test_val>
