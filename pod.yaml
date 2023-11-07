@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: nginx
   annotations:
-    avp.kubernetes.io/path: "kv/test"
+    avp.kubernetes.io/path: "/v1/kv/data/test"
 spec:
   containers:
   - name: nginx
